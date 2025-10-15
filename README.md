@@ -13,3 +13,7 @@ Step 2:  Create IAM role for Lambda and add 2 permissions (i.e AmazonEC2FullAcce
 
 Step 3: Create Lambda Function and copy the code 
 ![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/21a797c3aa050635ef04e0d37fa4e4c410c6d9b9/Screenshot%202025-10-15%20233356.png)
+
+Step 4: Test the lambda function. while navigating to the console
+![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/d67fb8ed4803cf2ce88fb800abee2d9874a63083/Test%20result.png)
+
