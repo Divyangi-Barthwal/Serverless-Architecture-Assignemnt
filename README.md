@@ -41,3 +41,13 @@ Step 4: Test
 In Lambda--> Click Test ---> create a new test event and name it TestEvent
 status code: 200 should be visible
 ![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/6caa81f3e130730dae74f62ed21b00f62c1d8d22/Test%20result.png)
+
+**Assignment 3**
+
+Step 1:Create S3 bucket 
+Navigate to AWS console and Click on S3 and create
+Bucket name: encrypted-bucket-001
+
+
+
+
