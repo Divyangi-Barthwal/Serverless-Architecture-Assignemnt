@@ -1,0 +1,24 @@
+Assignment 2:
+
+Step 1: Create a S3 bucket name: lambda-cleanup-bucket-a5 
+and uploaded few files
+![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/90f1c366c4a00075a2f8b642b82dacaf1187445a/S3%20bucket.png)
+
+Step 2: Create an IAM Role for Lambda
+Navigating to AWS console and clicking the IAM and select role 
+create role ---> Create an IAM Role for Lambda ---> Use case → Lambda ----> Attach policy → Search & select AmazonS3FullAccess
+Name--> lambda-s3-cleanup-role-a5
+
+Step 3:
+Create the Lambda Function
+navigating to AWS console  created a lambda fuction called: Name: S3CleanupFunction
+Runtime: Python 3.12 (or latest available) and Permissions: Choose Use existing role → select lambda-s3-cleanup-role
+![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/6caa81f3e130730dae74f62ed21b00f62c1d8d22/boto%203%20code.png)
+
+Step 4: Test
+In Lambda--> Click Test ---> create a new test event and name it TestEvent
+status code: 200 should be visible
+![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/6caa81f3e130730dae74f62ed21b00f62c1d8d22/Test%20result.png)
+
+
+
