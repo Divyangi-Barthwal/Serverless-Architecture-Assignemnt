@@ -2,6 +2,7 @@
 Assignment choosen are 1,2,3 and 4
 
 **Assignment 1**
+
 Step 1: Launch 2 Instance and tag 1st instance as Auto-start and 2nd instance as Auto-Stop
 
 ![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/2c146bd128deefe6c5d98cf395db421b2df3db8a/EC2-Autostart.png)
