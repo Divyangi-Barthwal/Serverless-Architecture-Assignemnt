@@ -85,8 +85,19 @@ once the permission is updated. navigate to Lambda fuction and test again
 ![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/2b68cbb647d557a3ca7d7554a69762c98901b61d/Screenshot%202025-10-16%20AFinal%20result.png)
 Success code 200
 
+**Assignment 8**
+Step 1: create IAM --> Role--> Create Role
+Trusted entity: AWS service → Lambda → Next.
+Attach permissions:Check AWSLambdaBasicExecutionRole--> Click Next (we’ll add a small custom policy next).
+Name: LambdaComprehendSentimentRole → Create role.
+In Add permissions → Create inline policy → JSON and below is the code
+![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/4054a213f24c40e27f58e4ed5cf3c103026c131f/IAM%20access.png)
+![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/4054a213f24c40e27f58e4ed5cf3c103026c131f/IAM%20inline%20access%20permission.png)
 
+Step 2:Create Lambda function
+Author from scratch--> Name: analyze-review-sentiment --> Runtime: Python 3.12 --> Architecture: x86_64 --> Permissions → Use an existing role → select LambdaComprehendSentimentRole --> Create function
 
+![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/4054a213f24c40e27f58e4ed5cf3c103026c131f/lambda%20function.png)
 
 
 
