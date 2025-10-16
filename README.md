@@ -96,8 +96,11 @@ In Add permissions → Create inline policy → JSON and below is the code
 
 Step 2:Create Lambda function
 Author from scratch--> Name: analyze-review-sentiment --> Runtime: Python 3.12 --> Architecture: x86_64 --> Permissions → Use an existing role → select LambdaComprehendSentimentRole --> Create function
-
 ![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/4054a213f24c40e27f58e4ed5cf3c103026c131f/lambda%20function.png)
+
+Now test the code 
+200 status code 
+![image alt](https://github.com/Divyangi-Barthwal/Serverless-Architecture-Assignemnt/blob/b3820f1ae15bf00d3f8f5217308d51161513ca58/200%20status.png)
 
 
 
